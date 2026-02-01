@@ -12,7 +12,13 @@ Alma en Carbón es un proyecto artístico centrado en la figura humana, la memor
 - Papel
 
 ## Obras
-(Próximamente)
+
+### Dualidad espectral
+![Dualidad espectral](./dualidad-espectral-gabriel-tesio-grafito-carbon.jpg)
+
+### Flexión
+![Flexión](./flexion-gabriel-tesio-grafito-carbon.jpg)
+
 
 ## Contacto
 - Web: https://gabrieltesio.com
