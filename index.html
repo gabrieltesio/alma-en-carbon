@@ -1,121 +1,95 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Alma en Carbón</title>
+<style>
+  :root {
+    --bg: #0e0e0e;
+    --text: #eaeaea;
+    --muted: #b5b5b5;
+    --line: #2a2a2a;
+  }
 
-  <style>
-    body {
-      background: #0e0e0e;
-      color: #eaeaea;
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: auto;
-      padding: 40px;
-      line-height: 1.6;
-    }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Georgia, "Times New Roman", serif;
+    max-width: 860px;
+    margin: auto;
+    padding: 80px 24px;
+    line-height: 1.75;
+  }
 
-    h1 {
-      font-size: 2.5rem;
-      border-bottom: 1px solid #333;
-      padding-bottom: 10px;
-    }
+  h1 {
+    font-size: 3.2rem;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
 
-    h2 {
-      margin-top: 70px;
-      border-bottom: 1px solid #333;
-      padding-bottom: 6px;
-    }
+  h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-top: 120px;
+    margin-bottom: 10px;
+  }
 
-    em {
-      color: #bbbbbb;
-    }
+  h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 40px;
+  }
 
-    img {
-      max-width: 100%;
-      display: block;
-      margin: 40px 0 20px 0;
-    }
+  p {
+    max-width: 640px;
+    font-size: 1.05rem;
+    color: var(--text);
+  }
 
-    a {
-      color: #9ad;
-    }
-  </style>
-</head>
+  em {
+    color: var(--muted);
+    font-style: italic;
+  }
 
-<body>
+  img {
+    width: 100%;
+    display: block;
+    margin: 80px 0 24px 0;
+  }
 
-<h1>Alma en Carbón</h1>
-<p><strong>Artista visual en grafito y carbón.</strong><br>
-Identidad · memoria · proceso creativo</p>
+  /* línea editorial fina */
+  h2::after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: var(--line);
+    margin-top: 14px;
+  }
 
-<!-- ANTESALA 1 -->
-<img src="cenizas-de-identidad-gabriel-tesio-grafito-carbon.jpg" alt="Cenizas de identidad">
-<h2>Cenizas de identidad</h2>
-<p><em>Grafito y carbón sobre papel.</em></p>
-<p>
-La figura humana se presenta como residuo.
-Una forma atravesada por la memoria y el desgaste.
-El cuerpo no se muestra completo, sino como huella, fragmento y tensión.
-El carbón no describe: <strong>insiste</strong> sobre lo que permanece.
-</p>
+  /* intro */
+  .intro {
+    font-size: 1.1rem;
+    color: var(--muted);
+    max-width: 640px;
+    margin-bottom: 80px;
+  }
 
-<!-- ANTESALA 2 -->
-<img src="esencia-fragmentada-gabriel-tesio-grafito-carbon.jpg" alt="Esencia fragmentada">
-<h2>Esencia fragmentada</h2>
-<p><em>Grafito y carbón sobre papel.</em></p>
-<p>
-La figura comienza a perder unidad.
-El cuerpo deja de sostenerse como forma cerrada y se manifiesta
-como campo de tensión y ruptura.
-</p>
-<p>
-La identidad no desaparece, pero se quiebra:
-persiste en fragmentos, gestos incompletos y zonas de fricción.
-El carbón no construye, <strong>erosiona</strong>.
-</p>
+  /* contacto */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 60px;
+  }
 
-<!-- TEXTO PUENTE -->
-<p>
-Las obras que conforman esta antesala preparan el ingreso a la serie central.
-La identidad deja de ser umbral para convertirse en conflicto.
-</p>
+  li {
+    margin-bottom: 8px;
+  }
 
-<!-- SERIE -->
-<img src="gabriel-tesio-zona-oscura-carbon-2024.jpg" alt="Zona oscura">
-<h2>Zona oscura</h2>
-<p><em>Grafito y carbón sobre papel.</em></p>
-<p>
-La figura permanece suspendida en una región de sombra.
-La tensión no se resuelve ni avanza: se densifica.
-La identidad no desaparece, pero se vuelve opaca.
-</p>
+  a {
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px solid var(--line);
+  }
 
-<img src="dualidad-espectral-gabriel-tesio-grafito-carbon.jpg" alt="Dualidad espectral">
-<h2>Dualidad espectral</h2>
-<p><em>Grafito y carbón sobre papel.</em></p>
-<p>
-Dos presencias coexisten en un mismo cuerpo.
-La identidad deja de ser estable y se manifiesta como superposición y conflicto.
-El rostro no unifica: tensiona.
-</p>
-
-<!-- CIERRE -->
-<img src="flexion-gabriel-tesio-grafito-carbon.jpg" alt="Fragmento">
-<h2>Fragmento</h2>
-<p><em>Grafito y carbón sobre papel.</em></p>
-<p>
-El cuerpo se reduce a gesto.
-No hay resolución ni síntesis:
-solo resto, huella y persistencia material.
-</p>
-
-<h2>Contacto</h2>
-<ul>
-  <li>Web: <a href="https://gabrieltesio.com">gabrieltesio.com</a></li>
-  <li>Instagram: <a href="https://instagram.com/gabrieltesio">@gabrieltesio</a></li>
-  <li>Behance: <a href="https://behance.net/gabrieltesio">behance.net/gabrieltesio</a></li>
-</ul>
-
-</body>
-</html>
+  a:hover {
+    color: var(--text);
+    border-bottom-color: var(--text);
+  }
+</style>
