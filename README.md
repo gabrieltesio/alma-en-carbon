@@ -26,4 +26,4 @@ El cuerpo como gesto contenido, fuerza interna y resistencia al equilibrio.*
 ## Contacto
 - Web: https://gabrieltesio.com
 - Instagram: https://instagram.com/gabrieltesio
-- Behance: https://behance.net/gabrieltesio
+- E-mail: gabriel.tesio@gmail.com
